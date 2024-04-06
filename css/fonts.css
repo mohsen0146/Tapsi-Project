@@ -1,0 +1,28 @@
+@font-face {
+    font-family: IranYekan;
+    font-weight: 400;
+    font-style: normal;
+    src: url(/assets/fonts/IRANYekanWebRegular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: IranYekan;
+    font-weight: 700;
+    font-style: normal;
+    src: url(/assets/fonts/IRANYekanWeb\ Bold.woff2) format("woff2");
+
+}
+
+
+body, button, .badge, span , input, textarea{
+    font-family: "IranYekan";
+}
+
+
+button, .footer_item h6, .intro-btn h1, h3{
+    font-weight: 700;
+}
+
+.nav__item.cta{
+    font-weight: 400;
+}

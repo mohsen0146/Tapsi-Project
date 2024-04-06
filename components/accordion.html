@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="#">
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container block">
+      <h2>سوابق راننده</h2>
+      <div class="accordion-wrapper">
+        <div class="accordion__intro">
+          <h2 class="accordion__heading">رزومه و سوابق</h2>
+          <span>
+            <span>ویرایش</span>
+            <span><i class="far fa-edit"></i></span>
+          </span>
+        </div>
+        <div class="accordion">
+          <header class="accordion__header">
+            <h2 class="accordion__heading">سابقه کاری</h2>
+            <div class="accordion__icon">
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+          </header>
+          <div class="accordion__content">
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+              و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+              زیادی در شصت و سه درصد گذشته حال و آینده.</p>
+              <span><i class="far fa-edit"></i></span>
+          </div>
+        </div>
+        <div class="accordion">
+          <header class="accordion__header">
+            <h2 class="accordion__heading">سابقه تحصیلی</h2>
+            <div class="accordion__icon">
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+          </header>
+          <div class="accordion__content">
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+              و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+              زیادی در شصت و سه درصد گذشته حال و آینده.</p>
+              <span><i class="far fa-edit"></i></span>
+          </div>
+        </div>
+        <div class="accordion">
+          <header class="accordion__header">
+            <h2 class="accordion__heading">زبان های مسلط</h2>
+            <div class="accordion__icon">
+              <i class="fa-solid fa-circle-chevron-down"></i>
+            </div>
+          </header>
+          <div class="accordion__content ">
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+              و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+              زیادی در شصت و سه درصد گذشته حال و آینده.</p>
+              <span><i class="far fa-edit"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>const accordionHeaders = document.querySelectorAll(".accordion__header");
+      const accordion = document.querySelector(".accordion");
+      accordionHeaders.forEach((item) => {
+        item.addEventListener("click", (e) => {
+          console.log(e.target.parentElement);
+          e.target.parentElement.classList.toggle("accordion__expanded");
+        });
+      });</script>
+
+ <!-- <script> const accordionHeader = document.querySelector(".accordion__header");
+  const accordion = document.querySelector(".accordion");
+  accordionHeader.addEventListener("click", (e) => {
+    accordion.classList.toggle("accordion__expanded");
+  });</script> -->
+    <!-- <script src="../js/main.js"></script> -->
+  </body>
+</html>
